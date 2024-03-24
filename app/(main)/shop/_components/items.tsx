@@ -29,7 +29,7 @@ export const Items = ({ hasActiveSubscription, hearts, points }: Props) => {
   };
 
   const onUpgrade = () => {
-    if (pending || hasActiveSubscription) {
+    if (pending) {
       return;
     }
 
@@ -74,8 +74,8 @@ export const Items = ({ hasActiveSubscription, hearts, points }: Props) => {
             Unlimited hearts
           </p>
         </div>
-        <Button disabled={pending || hasActiveSubscription} onClick={onUpgrade}>
-          {hasActiveSubscription ? "active" : "upgrade"}
+        <Button disabled={pending} onClick={onUpgrade}>
+          {hasActiveSubscription ? "settings" : "upgrade"}
         </Button>
       </div>
     </ul>
