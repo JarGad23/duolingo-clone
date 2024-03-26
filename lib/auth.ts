@@ -1,0 +1,11 @@
+import { auth } from "@clerk/nextjs";
+
+export const isAdmin = () => {
+  const { userId } = auth();
+
+  if (!userId || !process.env.ADMIN_ID) {
+    return false;
+  }
+
+  return userId === process.env.ADMIN_ID;
+};
