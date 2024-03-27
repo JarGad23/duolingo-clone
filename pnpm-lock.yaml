@@ -54,8 +54,8 @@ dependencies:
     specifier: ^18
     version: 18.2.0
   react-admin:
-    specifier: ^4.16.13
-    version: 4.16.13(@types/react@18.2.66)(react-dom@18.2.0)(react-is@16.13.1)(react@18.2.0)
+    specifier: ^4.16.12
+    version: 4.16.12(@types/react@18.2.66)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
   react-circular-progressbar:
     specifier: ^2.1.0
     version: 2.1.0(react@18.2.0)
@@ -4248,7 +4248,7 @@ packages:
       array.prototype.foreach: 1.0.7
       has: 1.0.4
       object.entries: 1.1.7
-      string.prototype.trim: 1.2.8
+      string.prototype.trim: 1.2.9
       warning: 4.0.3
     dev: false
 
@@ -4703,7 +4703,7 @@ packages:
       - react-router-dom
     dev: false
 
-  /ra-ui-materialui@4.16.13(@mui/icons-material@5.15.14)(@mui/material@5.15.14)(ra-core@4.16.12)(react-dom@18.2.0)(react-hook-form@7.51.1)(react-is@16.13.1)(react-router-dom@6.22.3)(react-router@6.22.3)(react@18.2.0):
+  /ra-ui-materialui@4.16.13(@mui/icons-material@5.15.14)(@mui/material@5.15.14)(ra-core@4.16.12)(react-dom@18.2.0)(react-hook-form@7.51.1)(react-is@18.2.0)(react-router-dom@6.22.3)(react-router@6.22.3)(react@18.2.0):
     resolution: {integrity: sha512-ZsfThd7GsiU4wwD0lM19F/Sfh3FK2Nz40HrcHccbxHS+G5Gr/CqYz6tTR4yLe1ehONSx/YLfeUCYjOcurKXzIA==}
     peerDependencies:
       '@mui/icons-material': ^5.0.1
@@ -4734,7 +4734,7 @@ packages:
       react-dropzone: 12.1.0(react@18.2.0)
       react-error-boundary: 3.1.4(react@18.2.0)
       react-hook-form: 7.51.1(react@18.2.0)
-      react-is: 16.13.1
+      react-is: 18.2.0
       react-query: 3.39.3(react-dom@18.2.0)(react@18.2.0)
       react-router: 6.22.3(react@18.2.0)
       react-router-dom: 6.22.3(react-dom@18.2.0)(react@18.2.0)
@@ -4743,8 +4743,8 @@ packages:
       - react-native
     dev: false
 
-  /react-admin@4.16.13(@types/react@18.2.66)(react-dom@18.2.0)(react-is@16.13.1)(react@18.2.0):
-    resolution: {integrity: sha512-hipq75UHGctXqrEHYyWyQeDe7+iLqjUoJFeyTQV/va5zFNzpBPRtI+aX3gZ4RBvqwE/jSNmz7cBnw1CFs8KuoQ==}
+  /react-admin@4.16.12(@types/react@18.2.66)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-jvUlRpFgkFCu1IWmsdKhI9NqL7dPr8ZcOGm6aa8Pk9ihHcIXXZ1Bd4gSiBrQlTo5rK/cLvf3KFCUF5temZcbCQ==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
@@ -4757,7 +4757,7 @@ packages:
       ra-core: 4.16.12(history@5.3.0)(react-dom@18.2.0)(react-hook-form@7.51.1)(react-router-dom@6.22.3)(react-router@6.22.3)(react@18.2.0)
       ra-i18n-polyglot: 4.16.12(history@5.3.0)(react-dom@18.2.0)(react-hook-form@7.51.1)(react-router-dom@6.22.3)(react-router@6.22.3)(react@18.2.0)
       ra-language-english: 4.16.12(history@5.3.0)(react-dom@18.2.0)(react-hook-form@7.51.1)(react-router-dom@6.22.3)(react-router@6.22.3)(react@18.2.0)
-      ra-ui-materialui: 4.16.13(@mui/icons-material@5.15.14)(@mui/material@5.15.14)(ra-core@4.16.12)(react-dom@18.2.0)(react-hook-form@7.51.1)(react-is@16.13.1)(react-router-dom@6.22.3)(react-router@6.22.3)(react@18.2.0)
+      ra-ui-materialui: 4.16.13(@mui/icons-material@5.15.14)(@mui/material@5.15.14)(ra-core@4.16.12)(react-dom@18.2.0)(react-hook-form@7.51.1)(react-is@18.2.0)(react-router-dom@6.22.3)(react-router@6.22.3)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-hook-form: 7.51.1(react@18.2.0)
